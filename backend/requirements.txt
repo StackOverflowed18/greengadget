@@ -1,0 +1,6 @@
+# backend/requirements.txt
+Flask>=2.0
+google-generativeai
+Pillow
+gunicorn
+Flask-Cors
