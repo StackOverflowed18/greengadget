@@ -1,0 +1,246 @@
+/* General Styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Darker text */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to top */
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 650px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff; /* White card background */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add some margin from the top */
+    margin-bottom: 20px; /* Add margin at bottom */
+}
+
+h1 {
+    color: #007bff; /* Primary blue color */
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #0056b3; /* Darker blue */
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.instructions {
+    text-align: center;
+    color: #6c757d; /* Gray text */
+    margin-bottom: 25px;
+    font-size: 0.95em;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #495057;
+}
+
+input[type='text'],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da; /* Lighter border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+input[type='text']:focus,
+textarea:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.optional-inputs label {
+    margin-top: 15px; /* Add space above optional labels */
+}
+
+/* File Input Styling */
+input[type='file'] {
+    display: none; /* Hide the default input */
+}
+
+.file-label {
+    display: inline-flex; /* Use flex for icon alignment */
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #6c757d; /* Gray button */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+.file-label:hover {
+    background-color: #5a6268;
+}
+.file-label svg {
+    margin-right: 8px;
+}
+
+#file-name-display {
+    margin-left: 15px;
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* Image Preview */
+.image-preview-container {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px dashed #ced4da;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+}
+
+#image-preview {
+    max-width: 100%;
+    max-height: 250px;
+    border-radius: 4px;
+}
+
+/* Submit Button */
+button[type='submit'] {
+    display: flex; /* Use flex for spinner alignment */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #007bff; /* Primary blue */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button[type='submit']:hover:not(:disabled) {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type='submit']:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Spinner Animation */
+.spinner {
+    width: 18px;
+    height: 18px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #ffffff;
+    animation: spin 1s ease-in-out infinite;
+    margin-left: 10px; /* Space between text and spinner */
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.button-text {
+    display: inline-block;
+}
+
+/* Status Messages */
+.status {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 6px;
+}
+.status.error {
+    color: #dc3545; /* Red for errors */
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+.status.loading {
+    color: #004085; /* Blue for loading */
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+}
+
+/* Results Display */
+.results {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e9ecef; /* Light background for results */
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+}
+
+.price-label {
+    text-align: center;
+    font-size: 1em;
+    color: #495057;
+    margin-bottom: 5px;
+}
+
+#price-range {
+    font-size: 2em; /* Larger font for price */
+    font-weight: 600;
+    color: #28a745; /* Green for price */
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.detected-info {
+    font-size: 0.9em;
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 20px;
+    border-top: 1px solid #ced4da;
+    padding-top: 15px;
+}
+
+.disclaimer {
+    font-size: 0.8em;
+    color: #6c757d;
+    border-top: 1px solid #ced4da;
+    padding-top: 15px;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+/* Utility Class */
+.hidden {
+    display: none;
+}
