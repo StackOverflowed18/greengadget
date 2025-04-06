@@ -14,11 +14,20 @@ Our solution is built with a clean and lightweight tech stack for maximum access
 We believe in tech for good. Green Gadget isn't just a platform — it's a movement toward responsible digital practices. Whether you're a tech enthusiast, environmentalist, or someone who just wants to make a difference — you’re invited to be a part of this initiative.
 <br><br><br>
 🚀 Getting Started
-To run this project locally:
+# To run this project locally:
+# Clone the repo
+git clone https://github.com/StackOverflowed18/greengadget.git
 
-bash
-Copy
-Edit
+# Navigate to frontend
+cd frontend
+npm install
+npm start
+
+# Navigate to backend
+cd ../backend
+pip install -r requirements.txt
+python app.py
+
 # Clone the repo
 git clone https://github.com/StackOverflowed18/greengadget.git
 
