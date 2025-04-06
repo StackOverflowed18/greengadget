@@ -1,6 +1,6 @@
 # green gadget
 We’re excited to present our innovative solution tackling the e-waste crisis caused by rapid tech growth and short device lifespans. With e-waste expected to reach <strong> 74M metric tons </strong> by 2030, we aim to create a sustainable impact using technology. Let’s build a greener future! 🌍
-<strong> # 🔧 Tech Stack</strong>
+# 🔧 Tech Stack
 Our solution is built with a clean and lightweight tech stack for maximum accessibility and ease of contribution:
 
 🌐 Frontend – Developed using HTML, CSS, and JavaScript, ensuring fast performance and broad browser compatibility.
@@ -10,7 +10,7 @@ Our solution is built with a clean and lightweight tech stack for maximum access
 🗂️ Database – MongoDB is used to efficiently manage and store dynamic data such as user submissions and recycling logs.
 
 <br><br><br>
-<strong> 🌍 Why Green Gadget? </strong>
+ # 🌍 Why Green Gadget? 
 We believe in tech for good. Green Gadget isn't just a platform — it's a movement toward responsible digital practices. Whether you're a tech enthusiast, environmentalist, or someone who just wants to make a difference — you’re invited to be a part of this initiative.
 <br><br><br>
 🚀 Getting Started
