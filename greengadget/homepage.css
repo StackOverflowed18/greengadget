@@ -1,0 +1,223 @@
+
+
+ *{
+    margin:0;
+    padding:0;
+    
+ }
+ 
+.navbar .navbar-brand{
+    margin-left: 11px;
+    padding:0;
+    font-style:Montserrat;
+    color:rgb(7, 241, 7);
+    font-weight: bold;
+    font-size: 35px;
+}
+/* .navbar{
+    background-color:;
+
+} */
+/* Navbar Background */
+.navbar {
+    background-color: rgb(61, 80, 86) !important;
+  }
+
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #00ff00f6 !important;
+    font-weight: bolder;
+    
+  }
+
+  /* Dropdown Menu */
+  .dropdown-menu {
+    background-color: rgb(61, 80, 86);
+    border: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    display: block;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .dropdown-menu .dropdown-item {
+    color: white !important;
+  }
+
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #00ddffcd !important;
+    color: black !important;
+  }
+
+  /* Active Dropdown Animation */
+  .dropdown.show .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.green-gadget-text {
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    color: green; /* You can adjust the color */
+}
+#carouselExampleDark {
+    width: 90%;
+    height: 79vh;
+    margin: auto;
+    border-radius: 5px;
+  }
+  .carousel-inner img,
+.carousel-inner video  {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+  }
+  .about-section {
+    position: relative;
+    text-align: center;
+    background: #f4f4f431; /* Light gray background */
+    padding: 50px 20px;
+    overflow: hidden;
+}
+
+.green-text {
+    color: #00A86B; /* Green color */
+    font-weight: bold;
+}
+
+.floating-elements img {
+    position: absolute;
+    opacity: 0.6;
+    animation: floatUpDown 2s infinite alternate ease-in-out;
+}
+
+.floating-circuit {
+    width: 150px;
+    top: 5%;
+    left: 0.5%;
+}
+
+.floating-grass {
+    width: 120px;
+    bottom: 15px;
+    right: 2%;
+}
+
+@keyframes floatUpDown {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+}
+.carousel-caption h1 {
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.9); /* White drop shadow */
+    color: black; /* Keep contrast */
+    font-weight: bold;
+    font-size: 3rem; /* Adjust size for emphasis */
+}
+
+.carousel-caption a.btn {
+    text-shadow: none; /* Avoid shadow on buttons */
+}
+.carousel-caption {
+    background: rgba(255, 255, 255, 0.3); /* Light background */
+    backdrop-filter: blur(5px); /* Soft blur effect */
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.how-it-works {
+  text-align: center;
+  margin-top: 40px;
+}
+.step-card {
+  background-color: #28a745;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.step-card:hover {
+  transform: translateY(-5px);
+}
+.step-card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+.section-title {
+  text-align: center;
+  margin-top: 40px;
+}
+.step-card {
+  background-color: #28a745;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.step-card:hover {
+  transform: translateY(-5px);
+}
+.step-card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+.why-us-card {
+  background-color: #03c02ff6; /* Yellowish green */
+  color: rgb(246, 247, 245);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.why-us-card:hover {
+  transform: translateY(-5px);
+}
+.why-us-card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+h2 {
+  text-shadow: 1px 2px 4px rgba(32, 145, 56, 0.781);
+}
+/* .custom-style {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-style:hover {
+  transform: scale(1.05);
+} */
+.custom-style:hover {
+  transform: scale(1.05);
+  
+}
+.custom-style {
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+
+.custom-style:hover {
+  filter: grayscale(0%);
+}
+
+
+
+
+
+
+
