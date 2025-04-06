@@ -1,6 +1,6 @@
 # green gadget
 We’re excited to present our innovative solution tackling the e-waste crisis caused by rapid tech growth and short device lifespans. With e-waste expected to reach <strong> 74M metric tons </strong> by 2030, we aim to create a sustainable impact using technology. Let’s build a greener future! 🌍
-<strong>🔧 Tech Stack</strong>
+<strong> # 🔧 Tech Stack</strong>
 Our solution is built with a clean and lightweight tech stack for maximum accessibility and ease of contribution:
 
 🌐 Frontend – Developed using HTML, CSS, and JavaScript, ensuring fast performance and broad browser compatibility.
@@ -32,11 +32,11 @@ cd ../backend
 pip install -r requirements.txt
 python app.py
 
-🤝 Contributing
+# 🤝 Contributing
 Pull requests are welcome! Whether it's fixing a bug, improving UI, or suggesting new features — every contribution helps 🌿.
 Please make sure to update tests as appropriate.
 
-📫 Contact
+# 📫 Contact
 If you have ideas, feedback, or just want to connect, feel free to reach out via GitHub Issues or email (you can add your contact here if you like).
 
 
