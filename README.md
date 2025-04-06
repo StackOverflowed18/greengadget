@@ -1,4 +1,4 @@
-# Green Gadget
+# Green Gadget 🍀 🚛
 We’re excited to present our innovative solution tackling the e-waste crisis caused by rapid tech growth and short device lifespans. With e-waste expected to reach <strong> 74M metric tons </strong> by 2030, we aim to create a sustainable impact using technology. Let’s build a greener future! 🌍<br>
 # 🔧 Tech Stack
 Our solution is built with a clean and lightweight tech stack for maximum accessibility and ease of contribution:
