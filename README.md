@@ -12,7 +12,9 @@ Our solution is built with a clean and lightweight tech stack for maximum access
 <br><br><br>
  # 🌍 Why Green Gadget? 
 We believe in tech for good. Green Gadget isn't just a platform — it's a movement toward responsible digital practices. Whether you're a tech enthusiast, environmentalist, or someone who just wants to make a difference — you’re invited to be a part of this initiative.
+
 <br><br><br>
+
 🚀 Getting Started
 # To run this project locally:
 # Clone the repo
@@ -41,7 +43,7 @@ cd ../backend
 pip install -r requirements.txt
 python app.py
 
-<br><br><br><br><br><br>
+<br><br><br><br><br>
 # 🤝 Contributing
 Pull requests are welcome! Whether it's fixing a bug, improving UI, or suggesting new features — every contribution helps 🌿.
 Please make sure to update tests as appropriate.
