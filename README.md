@@ -41,9 +41,11 @@ cd ../backend
 pip install -r requirements.txt
 python app.py
 
+<br><br><br><br><br><br>
 # 🤝 Contributing
 Pull requests are welcome! Whether it's fixing a bug, improving UI, or suggesting new features — every contribution helps 🌿.
 Please make sure to update tests as appropriate.
+<br><br><br>
 
 # 📫 Contact
 If you have ideas, feedback, or just want to connect, feel free to reach out via GitHub Issues or email (you can add your contact here if you like).
