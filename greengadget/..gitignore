@@ -1,0 +1,58 @@
+# ===== Node (Express + React) =====
+node_modules/
+build/
+dist/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React environment files
+.env
+.env.local
+.env.*.local
+
+# React testing and coverage
+coverage/
+
+# Optional: Ignore uploads if saved locally
+uploads/
+public/uploads/
+
+# ===== Python (Flask) =====
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Flask environment
+instance/
+.env
+*.env
+*.sqlite3
+*.db
+
+# Pip and virtual environment
+venv/
+env/
+ENV/
+*.pyc
+Pipfile.lock
+
+# Flask cache
+*.log
+*.pid
+
+# ===== OS generated files =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE and Editor folders =====
+.vscode/
+.idea/
+*.swp
