@@ -1,0 +1,30 @@
+/* style.scss */
+#preloader {
+  position: fixed; /* Fixes it to the viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(37, 37, 37); /* Use the variable */
+  display: flex; /* Use flexbox for easy centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  z-index: 9999; /* Ensure it's on top of all other content */
+  transition: opacity 0.5s ease-out, visibility 0.5s ease-out; /* Use variable */
+}
+
+#preloader img { /* This is SCSS nesting */
+  max-width: 100%; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Class to be added by JavaScript to hide the preloader */
+.hide-preloader {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Initially hide the main content */
+#main-content {
+  display: none; /* Will be changed to 'block' by JS after loading */
+}/*# sourceMappingURL=style.css.map */

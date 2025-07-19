@@ -1,0 +1,356 @@
+
+
+ *{
+    margin:0;
+    padding:0;
+    
+    
+ }
+ img, video {
+  max-width: 100%;
+  height: auto;
+}
+.navbar .navbar-brand{
+    margin-left: 11px;
+    padding:0;
+    font-style:Montserrat;
+    color:rgb(7, 241, 7);
+    font-weight: bold;
+    font-size: 35px;
+}
+body {
+    background-color: rgb(2, 22, 2) !important; /* Dark background for the entire page */
+    /* You might also want to set text color for readability on a dark background */
+    
+}
+/* .navbar{
+    background-color:;
+
+} */
+/* Navbar Background */
+.navbar {
+    background-color: rgb(80, 80, 81) !important;
+  }
+
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #00ff00f6 !important;
+    font-weight: bolder;
+    
+  }
+
+  /* Dropdown Menu */
+  .dropdown-menu {
+    background-color: rgb(61, 80, 86);
+    border: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    display: block;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .dropdown-menu .dropdown-item {
+    color: white !important;
+  }
+
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #00ddffcd !important;
+    color: black !important;
+  }
+
+  /* Active Dropdown Animation */
+  .dropdown.show .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-link, .navbar-nav .dropdown-toggle {
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+.green-gadget-text {
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    color: green; /* You can adjust the color */
+}
+#carouselExampleDark {
+    width: 90%;
+    height: 79vh;
+    margin: auto;
+    border-radius: 5px;
+  }
+  .carousel-inner img,
+.carousel-inner video  {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+  }
+  .carousel-item {
+    min-height: 60vh; /* Ensures it takes proper height */
+  }
+  
+  /* @media (max-width: 768px) {
+    .carousel-item {
+      min-height: 50vh;
+    }
+  } */
+  .caption-container {
+    background: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 20px;
+    max-width: 90vw;
+  }
+  .carousel-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    word-break: break-word;
+  }
+  
+  /* Responsive fix for smaller devices */
+  @media (max-width: 576px) {
+    .carousel-heading {
+      font-size: 1.6rem;
+      padding: 8px 12px;
+      line-height: 1.2;
+    }
+  }
+  
+  .about-section {
+    position: relative;
+    text-align: center;
+    background: #f4f4f431; /* Light gray background */
+    padding: 50px 20px;
+    overflow: hidden;
+}
+
+.green-text {
+    color: #00A86B; /* Green color */
+    font-weight: bold;
+}
+
+.floating-elements img {
+    position: absolute;
+    opacity: 0.6;
+    animation: floatUpDown 2s infinite alternate ease-in-out;
+}
+
+.floating-circuit {
+    width: 150px;
+    top: 5%;
+    left: 0.5%;
+}
+
+.floating-grass {
+    width: 120px;
+    bottom: 15px;
+    right: 2%;
+}
+
+@keyframes floatUpDown {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+}
+.carousel-caption h1 {
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.9); /* White drop shadow */
+    color: black; /* Keep contrast */
+    font-weight: bold;
+    font-size: 3rem; /* Adjust size for emphasis */
+}
+
+.carousel-caption a.btn {
+    text-shadow: none; /* Avoid shadow on buttons */
+}
+.carousel-caption {
+    background: rgba(255, 255, 255, 0.3); /* Light background */
+    -webkit-backdrop-filter: blur(5px); /* Soft blur effect */
+    backdrop-filter: blur(5px); /* Soft blur effect */
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+/* Responsive styling for smaller screens like iPhone SE */
+/* @media (max-width: 380px) {
+  .carousel-heading {
+    font-size: 1.4rem;
+  }
+
+  .button-group a {
+    flex: 1 1 auto;
+    font-size: 0.85rem;
+    padding: 6px 10px;
+  }
+
+  .caption-container {
+    padding: 10px;
+  }
+} */
+
+.how-it-works {
+  text-align: center;
+  margin-top: 40px;
+}
+.step-card {
+  background-color: #28a745;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.step-card:hover {
+  transform: translateY(-5px);
+}
+.step-card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+.section-title {
+  text-align: center;
+  margin-top: 40px;
+}
+.step-card {
+  background-color: #28a745;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.step-card:hover {
+  transform: translateY(-5px);
+}
+.step-card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+/* Mobile responsiveness spacing */
+@media (max-width: 768px) {
+  .step-card {
+      margin-bottom: 20px;
+  }
+
+  .step-card img {
+      width: 60px;
+      height: auto;
+  }
+
+  .step-card h4 {
+      font-size: 1.2rem;
+  }
+
+  .step-card p {
+      font-size: 0.95rem;
+  }
+}
+
+.why-us-card {
+  background-color: #03c02ff6; /* Yellowish green */
+  color: rgb(246, 247, 245);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.why-us-card:hover {
+  transform: translateY(-5px);
+}
+.why-us-card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+h2 {
+  text-shadow: 1px 2px 4px rgba(0, 153, 255, 0.559);
+}
+/* .custom-style {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-style:hover {
+  transform: scale(1.05);
+} */
+.custom-style:hover {
+  transform: scale(1.05);
+  
+}
+.custom-style {
+  border-radius: 10px;
+ 
+}
+.section-space {
+  padding: 50px 0;
+}
+@media (max-width: 768px) {
+  .section-space {
+    padding: 30px 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .floating-circuit, .floating-grass {
+    display: none;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+}
+
+
+
+

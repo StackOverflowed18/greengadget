@@ -1,0 +1,33 @@
+$preloader-bg-color: rgb(37, 37, 37); 
+$transition-speed: 0.5s;
+
+#preloader {
+    position: fixed; /* Fixes it to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $preloader-bg-color; /* Use the variable */
+    display: flex; /* Use flexbox for easy centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 9999; /* Ensure it's on top of all other content */
+    transition: opacity $transition-speed ease-out, visibility $transition-speed ease-out; /* Use variable */
+}
+
+/* Preloader styles */
+#preloader {
+    img { /* This is SCSS nesting */
+        max-width: 100%; /* Adjust size as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+.hide-preloader {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Initially hide the main content */
+#main-content {
+    display: none; /* Will be changed to 'block' by JS after loading */
+}
