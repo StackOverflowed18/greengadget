@@ -13,35 +13,71 @@ Our solution is built with a clean and lightweight tech stack for maximum access
  # 🌍 Why Green Gadget? 
 We believe in tech for good. Green Gadget isn't just a platform — it's a movement toward responsible digital practices. Whether you're a tech enthusiast, environmentalist, or someone who just wants to make a difference — you’re invited to be a part of this initiative.
 
-<br><br><br>
+<br><br>
+<hr>
+<br>
 
+# Project Pictures
+<img src="img/i1.png" alt="image 1 2 3 4 5" />
+<p align="center"> Home page fig{i}</p>
+<hr>
+<br>
+<img src="img/i2.png" alt="image 1 2 3 4 5" />
+<p align="center"> About Section fig{ii}</p>
+<hr>
+<br>
+<img src="img/i3.png" alt="image 1 2 3 4 5" />
+<p align="center"> How it works? Section fig{iii}</p>
+<hr>
+<br>
+<img src="img/i4.png" alt="image 1 2 3 4 5" />
+<p align="center"> Why us? Section fig{iv}</p>
+<hr>
+<br>
+
+<img src="img/i5.png" alt="image 1 2 3 4 5" />
+<p align="center"> Engagement increasing Section fig{v}</p>
+<hr>
+<br>
+
+<img src="img/i6.png" alt="image 1 2 3 4 5" />
+<p align="center">footer {vi} </p>
+<hr>
+<br>
+
+<img src="img/i7.png" alt="image 1 2 3 4 5" />
+<p align="center">faq {vi}</p>
+<hr>
+<br>
+</br>
+</br>
+<hr>
+</br>
+</br>
 🚀 Getting Started
-# To run this project locally:
-# Clone the repo
-git clone https://github.com/StackOverflowed18/greengadget.git
+To run this project locally:
 
-# Navigate to frontend
-cd frontend
-npm install
-npm start
+1.  **Clone the repository**
 
-# Navigate to backend
-cd ../backend
-pip install -r requirements.txt
-python app.py
+    ```bash
+    git clone https://github.com/StackOverflowed18/greengadget.git
+    ```
 
-# Clone the repo
-git clone https://github.com/StackOverflowed18/greengadget.git
+2.  **Set up and run the backend**
+    Open a terminal and run:
+    ```bash
+    cd greengadget/backend
+    pip install -r requirements.txt
+    python app.py
+    ```
 
-# Navigate to frontend
-cd frontend
-npm install
-npm start
-
-# Navigate to backend
-cd ../backend
-pip install -r requirements.txt
-python app.py
+3.  **Set up and run the frontend**
+    Open a *new* terminal and run:
+    ```bash
+    cd greengadget/frontend
+    npm install
+    npm start
+    ```
 
 <br><br><br><br><br>
 # 🤝 Contributing
